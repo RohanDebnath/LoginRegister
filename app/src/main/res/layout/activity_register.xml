@@ -23,7 +23,7 @@
 
     <LinearLayout
         android:layout_width="278dp"
-        android:layout_height="305dp"
+        android:layout_height="355dp"
         android:layout_gravity="center_horizontal"
         android:orientation="vertical"
         android:padding="18dp"
@@ -32,6 +32,19 @@
         app:layout_constraintHorizontal_bias="0.774"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="296dp">
+        <EditText
+            android:id="@+id/nameRegister"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_edittext"
+            android:drawableLeft="@drawable/baseline_person_24"
+            android:drawablePadding="8dp"
+            android:hint="Name"
+            android:padding="8dp"
+            android:textColor="@color/white"
+            android:textColorHighlight="@color/cardview_dark_background" />
+
 
         <EditText
             android:id="@+id/emailReg"
